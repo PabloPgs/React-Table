@@ -1,0 +1,11 @@
+.Error {
+  font-size: 38px;
+  font-weight: 700;
+  color: darken(red, 10%);
+  text-align: center;
+  text-transform: capitalize;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

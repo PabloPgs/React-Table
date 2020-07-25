@@ -1,0 +1,23 @@
+.TableHeader {
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+
+  span {
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+.CellInner {
+  display: flex;
+  justify-content: space-between;
+
+  &:hover {
+    span {
+      text-decoration: underline;
+    }
+  }
+}

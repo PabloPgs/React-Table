@@ -1,0 +1,29 @@
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 0;
+
+  li {
+    list-style: none;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 5px;
+    color: #1b53c9;
+  }
+}
+
+.PaginationActive {
+  color: darken(#1b53c9, 35%);
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.PaginationDisabled {
+  display: none;
+}
+
+.PaginationBreak {
+  font-size: 18px;
+}
