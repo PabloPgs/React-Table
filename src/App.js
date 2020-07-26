@@ -55,7 +55,6 @@ const App = () => {
   const onPageChange = ({ selected }) => {
     const newData = [...totalData[selected]];
     setCurrentData(newData);
-    console.log(newData);
   };
 
   const toggleAddRowModal = () => {
@@ -63,7 +62,6 @@ const App = () => {
   };
 
   const toggleViewRowModal = (row) => {
-    console.log(row);
     setCurrentRow(row);
   };
 
@@ -91,7 +89,6 @@ const App = () => {
     });
     const modifiedData = filteredData.filter((m) => m.length > 0);
 
-    console.log(modifiedData);
     if (!modifiedData[0] || modifiedData[0].length === 0) {
       setError('Ничего не найдено(');
       return;
